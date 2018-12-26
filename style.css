@@ -1,13 +1,14 @@
 @media(max-width: 599px){
-    section{
+    .project{
         display: block;
         margin: 0;
         padding: 0;
+        
     }
 }
 @media(min-width: 600px){
-    section{
-        display: inline;
+    .project{
+        display: inline-block;
     }
 }
 
@@ -52,6 +53,6 @@ nav{
       cursor: pointer;
   }
 
-  p {
-      text-align: center;
-  }
+.project{
+    text-align: center;
+}
