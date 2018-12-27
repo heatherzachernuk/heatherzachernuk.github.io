@@ -1,58 +1,116 @@
 @media(max-width: 599px){
+    #logo {
+        margin-left: 1em;
+    }
+    .nav-link {
+        margin-right: 2em;
+    }
     .project{
         display: block;
         margin: 0;
         padding: 0;
-        
+    }
+    footer > p {
+        margin-left: 1em;
+        margin-block-start: 0;
+        font-size: 0.75em;
     }
 }
 @media(min-width: 600px){
+    nav{
+        font-size: 2em;
+    }
+    #logo {
+        margin-left: 2em;
+    }
+    .nav-link {
+        margin-right: 3em;
+    }
+    main{
+        
+    }
     .project{
         display: inline-block;
     }
+    footer > p {
+        margin-left: 2em;
+        margin-block-start: 0;
+        padding: 1em 0 1em 0;
+    }
 }
-
+@media(max-width: 1799px){
+    #container {
+        max-width: 1000px;
+    }
+}
+@media(min-width: 1800px){
+    #container {
+        max-width: 1500px;
+    }
+}
+/* Generic styles */
 html, body {
     margin: 0;
     padding: 0;
 }
-
 body {
     background-color: peachpuff;
+    font-family: 'Josefin Sans', sans-serif;
+    user-select: none;
+}
+a, a:hover, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
 }
 #container {
     margin: 0 auto;
-    background-color: black;
     min-width: 300px;
-    max-width: 1000px;
+    text-align: center;
 }
 nav{
-    height: 5em;
+    height: 3em;
+    line-height: 3em;
     width: 100%;
     display: flex;
+    justify-content: space-between;
     background-color: tomato;
-
-  }
-  main{
+}
+.nav-link {
+    display: inline;
+}
+#logo {
+    font-size: 2em;
+    line-height: 1.75em;
+    font-family: 'Alex Brush', cursive;
+}
+main{
     width: 100%;
     background-color: lightblue;
-  }
-  footer{
-    width: 100%;
-    height: 5em;
-    background-color: lightgreen;
-  }
-
-  .project-thumbnail {
-      max-width: 100vw;
-  }
-
-  a, a:hover, a:visited, a:active {
-      text-decoration: none;
-      color: black;
-      cursor: pointer;
-  }
-
+    padding: 1em 0 1em 0;
+}
 .project{
     text-align: center;
+    padding: 0.5em;
+}
+.project-thumbnail {
+    max-width: 100%;
+}
+.caption {
+    padding-top: 0.5em;
+    font-size: 1.5em;
+}
+footer{
+    font-size: 1.5em;
+    width: 100%;
+    /* height: 2em; */
+    background-color: lightgreen;
+    line-height: 2em;
+    text-align: left;
+}
+footer > p {
+    user-select: text !important;
+}
+.underlined-link{
+    text-decoration: underline;
 }
