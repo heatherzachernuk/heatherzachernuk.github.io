@@ -18,7 +18,7 @@
     #profile-picture {
         display: none;
     }
-    #about-container{
+    #about-container, .project-container{
         font-size: 1em;
         line-height: 1.5em;
     }
@@ -45,20 +45,22 @@
         margin-block-start: 0;
         padding: 1em 0 1em 0;
     }
-    #mission{
-        display: inline-block;
-        width: 60%;
-        margin-left: 3em;   
+    #mission, .blurb{
+        /* display: inline-block; */
+        /* width: 60%; */
+        /* margin-left: 3em;    */
     }
-    #picture-box{
-        display: inline;
-        width: 30%;
+    .picture-box{
+        padding: 0 1em;
+        float: left;
+        /* display: inline; */
+        /* width: 30%; */
     }
     #profile-picture {
-        vertical-align: top;
-        transform: translateY(25%);
+        /* vertical-align: top;
+        transform: translateY(25%); */
     }
-    #about-container{
+    #about-container, .project-container{
         font-size: 1.5em;
         line-height: 1.75em;
     }
@@ -150,7 +152,7 @@ footer > p {
 .underlined-link{
     text-decoration: underline;
 }
-#about-container{
+#about-container, .project-container {
     margin: 0 auto;
     max-width: 1000px;
     text-align: left;
@@ -159,7 +161,8 @@ footer > p {
 #skills{
     border-top: 3px double black;
 }
-#mission p, h3 {
+.blurb, #mission p, h3 {
     padding: 0;
+    text-align: justify;
 } 
 
