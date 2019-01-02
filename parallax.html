@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Alex+Brush|Josefin+Sans" rel="stylesheet">
+    <title>Heather Zachernuk</title>
+</head>
+<body>
+    <nav>
+        <div id="logo"><a href="index.html">HZ</a></div>
+        <div id="nav-links">
+            <a class="nav-link" id="work-link" href="index.html">work</a>
+            <a class="nav-link" id="contact-link" href="#contact">contact</a>
+            <a class="nav-link" id="about-link" href="about.html">about</a>
+        </div>
+    </nav>
+        <div id="container">
+        <main>
+            <div class="text-container">
+                    <div class="blurb">
+                        <div class="picture pic-right">
+                            <a href="https://heatherzachernuk.github.io/BookBox_II/" target="_blank" >
+                                <img class="project-thumbnail"
+                                srcset="test-small.jpg 320w"
+                                sizes="(min-width: 600px) 320px"
+                                src="test-small.jpg"
+                                alt="Parallax Image"/>
+                                <!-- <div class="caption">BookBox</div> -->
+                            </a>
+                        </div>
+                        <h3>Parallax image experiment</h3> 
+                        <p>Inspired by the effect of the <a href="http://www.firewatchgame.com" target="_blank" class="underlined-link">beautiful parallax graphic</a> for the  homepage of the game ‘Firewatch’, I set out to recreate the effect using basic HTML/CSS.
+                        </p> 
+                        <h4 class="break">How it works</h4>
+                        <p>The image consists of seven PNG layers translated along points in the z-axis, using the <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translateZ" target="_blank" class="underlined-link">CSS translateZ function</a>. When the user scrolls, each layer moves at a slightly different speed, creating the illusion of depth.</p>
+                        <h4>Subject</h4>
+                        <p>
+                        I constructed a cityscape in order to explore ideas of scale. I hoped to create a sense of discovery and zooming in as the user scrolled, starting with a view of distant skyscrapers and gradually uncovering a candid inner-city slum scene.
+                        </p>
+                    <div class="break"></div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p id="contact">Heather Zachernuk<br/> 
+                +1 408 296 9669<br/> 
+                <a href="mailto:heatherzachernuk@gmail.com">heather.zachernuk@gmail.com</a><br/> 
+                Connect with me on <a href="https://www.linkedin.com/in/heatherzachernuk/" target="_blank" class="underlined-link">LinkedIn</a></p>
+            </footer>
+        </div>
+    </body>
+    </html>
