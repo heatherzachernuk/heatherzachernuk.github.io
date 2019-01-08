@@ -74,6 +74,9 @@
     #container {
         max-width: 1500px;
     }
+    .project{
+        padding: 2em;
+    }
 }
 /* Generic styles */
 html, body {
