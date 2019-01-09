@@ -139,7 +139,7 @@ main{
 }
 .project-thumbnail {
     max-width: 100%;
-    box-shadow: 5px 6px rgb(61, 109, 124);
+    box-shadow: 5px 6px rgb(170, 209, 221);
 }
 .caption {
     padding-top: 0.5em;
