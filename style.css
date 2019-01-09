@@ -1,5 +1,5 @@
 @media(max-width: 599px){
-    #logo {
+    #logo-box {
         margin-left: 0.5em;
     }
     .nav-link {
@@ -31,8 +31,8 @@
     nav{
         font-size: 2em;
     }
-    #logo {
-        margin-left: 2em;
+    #logo-box {
+        margin-left: 6em;
     }
     .nav-link {
         margin-right: 3em;
@@ -90,10 +90,14 @@ body {
     user-select: none;
 }
 a, a:hover, a:visited, a:active {
-    text-decoration: none;
     color: black;
     cursor: pointer;
 }
+a:hover {
+    color: black;
+    text-shadow: white 0 0 20px;
+}
+
 #container {
     margin: 0 auto;
     min-width: 300px;
@@ -114,12 +118,19 @@ nav{
 }
 .nav-link {
     display: inline;
-    
+    color: rgb(54, 91, 104) !important;
+    text-decoration: none;
+}
+.nav-link:hover {
+    color: black !important;
+    text-shadow: white 0 0 10px;
 }
 #logo {
     font-size: 2em;
     line-height: 1.75em;
     font-family: 'Alex Brush', cursive;
+    color: rgb(32, 79, 94);
+    text-decoration: none;
 }
 main{
     width: 100%;
@@ -137,6 +148,9 @@ main{
     text-align: center;
     padding: 0.5em;
 }
+.project-link {
+    text-decoration: none;
+}
 .project-thumbnail {
     max-width: 100%;
     box-shadow: 5px 6px rgb(170, 209, 221);
@@ -144,6 +158,7 @@ main{
 .caption {
     padding-top: 0.5em;
     font-size: 1.5em;
+    text-decoration: none;
 }
 footer{
     padding-top: 1em;
@@ -181,4 +196,5 @@ footer > p {
 .more-info {
    display: block;
    margin-top: 10px;
+   text-decoration: none;
 }
