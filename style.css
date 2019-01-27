@@ -135,7 +135,7 @@ nav{
 }
 main{
     width: 100%;
-    background-color: rgb(224, 247, 255);
+    /* background-color: rgb(224, 247, 255); */
     padding: 1em 0 1em 0;
 }
 #intro {
