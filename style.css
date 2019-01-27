@@ -85,7 +85,8 @@ html, body {
     scroll-behavior: smooth;
 }
 body {
-    background-color: rgb(224, 247, 255);
+    background-image: linear-gradient(to bottom right, rgb(224, 247, 255), white);
+    /* background-color: rgb(224, 247, 255); */
     font-family: 'Josefin Sans', sans-serif;
     user-select: none;
 }
