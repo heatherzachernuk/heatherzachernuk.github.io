@@ -44,12 +44,30 @@
                             response to losing a silly game.</p> 
                         <h4>Technical details</h4>    
                         <p>
-                        The exciting action is in the javascript class "ScribbleCanvas". When invoked by the ending of a game, ScribbleCanvas generates an HTML canvas over the game board. 
-                        <p>The location of each move by the computer has been stored in an array. The function "loadPoints" takes each location in turn, finds the middle of the square and then draws a line from each square to the next. Styling is added to the line in "update" to achieve a jittery, petulant, hand-drawn look.</p>
+                        The exciting action is in the javascript class 
+                        "ScribbleCanvas". When invoked by the ending of 
+                        a game, ScribbleCanvas generates an HTML canvas 
+                        over the game board. 
+                        <p>The location of each move by the computer has 
+                            been stored in an array. The function "loadPoints" 
+                            takes each location in turn, finds the middle of 
+                            the square and then draws a line from each square 
+                            to the next. </p>
                         <h4>Creating the hand-drawn look</h4>
-                        <p>The jitter is created by drawing two dashed lines using the canvas properties <a href="https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash" target="_blank">setLineDash</a> and 
-                            <a href="https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineDashOffset" target="_blank">lineDashOffset</a>. 
-                        </p>               
+                        <p>The animated jitter by the petulant computer player 
+                            is created by drawing a line 
+                            using the canvas properties <a 
+                            href="https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash" 
+                            target="_blank">setLineDash</a> and 
+                            <a 
+                            href="https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/lineDashOffset" 
+                            target="_blank">lineDashOffset</a>. 
+                        </p>       
+                        <p>
+                            Each section of the line is divided into segments.
+                            The end point of each segment is randomly offset 
+                            to create a hand-drawn look.
+                        </p>        
                     <div class="break"></div>
                 </div>
             </div>
