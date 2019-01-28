@@ -92,7 +92,7 @@ body {
     user-select: none;
 }
 a, a:hover, a:visited, a:active {
-    color: black;
+    color: rgb(32, 79, 94);
     cursor: pointer;
 }
 a:hover {
