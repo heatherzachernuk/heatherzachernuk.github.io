@@ -85,7 +85,8 @@ html, body {
     scroll-behavior: smooth;
 }
 body {
-    background-image: linear-gradient(to bottom right, rgb(208, 235, 244), white);
+    background-image: linear-gradient(to bottom, rgba(186, 220, 231, 0.9) 25%, white), url("texture2.jpg");
+    background-repeat: no-repeat, repeat;
     /* background-color: rgb(224, 247, 255); */
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(32, 79, 94);
