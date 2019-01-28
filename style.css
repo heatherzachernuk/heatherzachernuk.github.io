@@ -88,6 +88,7 @@ body {
     background-image: linear-gradient(to bottom right, rgb(224, 247, 255), white);
     /* background-color: rgb(224, 247, 255); */
     font-family: 'Josefin Sans', sans-serif;
+    color: rgb(32, 79, 94);
     user-select: none;
 }
 a, a:hover, a:visited, a:active {
