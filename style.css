@@ -2,6 +2,9 @@
     #logo-box {
         margin-left: 0.5em;
     }
+    #logo-name{
+        display:none;
+    }
     .nav-link {
         margin-right: 1em;
     }
@@ -33,6 +36,9 @@
     }
     #logo-box {
         margin-left: 6em;
+    }
+    #logo-name{
+        font-size: 1em;
     }
     .nav-link {
         margin-right: 3em;
