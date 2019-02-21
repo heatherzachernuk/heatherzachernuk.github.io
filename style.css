@@ -43,9 +43,10 @@
     footer > p {
         margin-left: 2em;
         margin-block-start: 0;
+    }
+    footer {
         padding: 1em 0 1em 0;
     }
-
     .text-container{
         font-size: 1.5em;
         line-height: 1.75em;
