@@ -70,7 +70,7 @@
     #container {
         max-width: 1000px;
     }
-    #text-container{
+    .text-container{
         max-width: 800px;
     }
 }
@@ -78,7 +78,7 @@
     #container {
         max-width: 1500px;
     }
-    #text-container{
+    .text-container{
         max-width: 1000px;
     }
     .project{
