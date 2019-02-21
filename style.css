@@ -38,7 +38,12 @@
         margin-left: 6em;
     }
     #logo-name{
-        font-size: 1em;
+        display: inline;
+        margin-left: 2em;
+        font-size: 0.75em;
+    }
+    #nav-links {
+        display: inline;
     }
     .nav-link {
         margin-right: 3em;
