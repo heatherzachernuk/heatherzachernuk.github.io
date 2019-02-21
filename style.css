@@ -70,10 +70,16 @@
     #container {
         max-width: 1000px;
     }
+    #text-container{
+        max-width: 800px;
+    }
 }
 @media(min-width: 1800px){
     #container {
         max-width: 1500px;
+    }
+    #text-container{
+        max-width: 1000px;
     }
     .project{
         padding: 2em;
@@ -193,7 +199,6 @@ footer > p {
 }
 .text-container {
     margin: 0 auto;
-    max-width: 800px;
     text-align: left;
     padding: 1em;
 }
