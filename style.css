@@ -35,15 +35,13 @@
         font-size: 2em;
     }
     #logo-box {
-        margin-left: 6em;
+        display: none;
     }
     #logo-name{
-        display: inline;
-        margin-left: 2em;
-        font-size: 0.75em;
+        margin-left: 6em;
     }
     #nav-links {
-        display: inline;
+/*         display: inline; */
     }
     .nav-link {
         margin-right: 3em;
