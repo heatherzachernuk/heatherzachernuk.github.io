@@ -101,7 +101,7 @@ html, body {
     scroll-behavior: smooth;
 }
 body {
-    linear-gradient(to bottom, rgba(255, 255, 255, 0.75), rgba(216, 216, 216, 0.5)), url(texture.png);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.75), rgba(216, 216, 216, 0.5)), url(texture.png);
     background-repeat: no-repeat, repeat;
     font-family: 'Josefin Sans', sans-serif;
     color: rgb(60, 60, 60);
