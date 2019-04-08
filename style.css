@@ -101,11 +101,10 @@ html, body {
     scroll-behavior: smooth;
 }
 body {
-    background-image: linear-gradient(to bottom, rgba(190, 215, 223, 0.72) 25%, white), url("texture.png");
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.75), rgba(216, 216, 216, 0.5)), url(texture.png);
     background-repeat: no-repeat, repeat;
-    /* background-color: rgb(224, 247, 255); */
     font-family: 'Josefin Sans', sans-serif;
-    color: rgb(32, 79, 94);
+    color: rgb(60, 60, 60);
     user-select: none; 
 }
 a, a:hover, a:visited, a:active {
@@ -130,16 +129,15 @@ nav{
     width: 100%;
     display: flex;
     justify-content: space-between;
-    /* background-color: rgb(208, 235, 244); */
-    background-image: linear-gradient(to bottom, rgba(208, 235, 244, 0.85), rgba(208, 235, 244, 0.82)), url("texture.png");
+    background-image: linear-gradient(to bottom, rgba(253, 253, 253, 0.85), rgba(210, 210, 210, 0.82)), url(texture.png);
     background-repeat: no-repeat, repeat;
     box-sizing: border-box;
-    border-right: 5px solid rgb(170, 209, 221);
-    border-bottom: 5px solid rgb(170, 209, 221);
+    border-right: 5px solid rgb(218, 218, 218);
+    border-bottom: 5px solid rgb(218, 218, 218);
 }
 .nav-link {
     display: inline;
-    color: rgb(54, 91, 104) !important;
+    rgb(84, 84, 84) !important;
     text-decoration: none;
 }
 .nav-link:hover {
@@ -150,7 +148,7 @@ nav{
     font-size: 2em;
     line-height: 1.75em;
     font-family: 'Alex Brush', cursive;
-    color: rgb(32, 79, 94);
+    color: rgb(51, 51, 51);
     text-decoration: none;
 }
 main{
