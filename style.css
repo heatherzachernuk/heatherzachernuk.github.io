@@ -173,7 +173,7 @@ main{
 }
 .project-thumbnail {
     max-width: 100%;
-    box-shadow: 5px solid rgb(218, 218, 218);
+    box-shadow: 5px 5px solid rgb(218, 218, 218);
 }
 .caption {
     padding-top: 0.5em;
