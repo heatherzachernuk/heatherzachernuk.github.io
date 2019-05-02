@@ -12,6 +12,7 @@
         display: block;
         margin: 0;
         padding: 0;
+        margin-bottom: 
     }
     footer > p {
         margin-left: 1em;
@@ -166,6 +167,7 @@ main{
 .project{
     text-align: center;
     padding: 0.5em;
+    margin-bottom: 4em;
 }
 .project-link {
     text-decoration: none;
